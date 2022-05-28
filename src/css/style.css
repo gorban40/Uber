@@ -1,0 +1,200 @@
+*{
+    font-family: 'Roboto';
+}
+nav{
+    width: 100%;
+    min-height: 50px;
+    background-color: #212121;
+    position: fixed;
+}
+header{
+    position: relative;
+    height: 50px;
+}
+.menu {
+    display: flex;
+    background-color: rgba(31,30,30,0.6);
+    justify-content: space-around;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+.menu .menu_link{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+    color: #ffffff;
+}
+.menu .menu_item{
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+/* ------------------------------------------ */
+.subheader{
+    margin-top: 50px;
+    width: 100%;
+    position: absolute;
+    height: 84px;
+    background-color: rgba(0,0,0,.6);
+}
+
+.subheader .subheader_logo{
+    display: block;
+    margin-top: 16px;
+    max-width: 100%;
+}
+.subheader .subheader_logo_text{
+    margin-top: 6px;
+    opacity: 0.5;
+    font-size: 13px;
+    font-weight: 100;
+    color: #ffffff;
+}
+.subheader .subheader_call{
+    text-align: right;
+    margin-top: 16px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #ffffff;
+}
+.subheader .subheader_number{
+    line-height: 12px;
+    display: block;
+    text-align: right;
+    margin-top: 8px;
+    font-size: 22px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.subheader .subheader_button{
+    margin-top: 16px;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border-style: none;
+
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    color: #ffffff;
+}
+/* ------------------------------- */
+.promo{
+    padding: 150px 0 135px 0;
+    min-height: 800px;
+    background: url('../img/bg/header/uber_bg.jpg') center center/cover no-repeat;
+}
+.promo h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 60px;
+    margin: 0;
+}
+.promo h2{
+    line-height: 36px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 0;
+    margin-top: 22px;
+}
+.promo .promo_descr{
+    text-align: center;
+    margin-top: 23px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.promo .promo_button{
+    display: block;
+    margin: 143px auto 0 auto;
+    width: 265px;
+    height: 69px;
+    background-image: linear-gradient(0.0deg, #1eacc7 0%, #4ce2ff 100%);
+    border: none;
+    border-radius: 4px;
+    box-shadow: inset 0px -4px 0px 0px rgba(0,0,0,0.11);
+
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    color: #ffffff;
+}
+/* -------------- */
+.reason{
+    padding: 71px 0 65px 0;
+}
+.reason .reason_header{
+    margin: 0 auto;
+    text-align: center;
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+
+    display: flex;
+    font-size: 11px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #ffffff;
+    justify-content:center;
+    align-items: center;
+}
+.reason .reason_header_8{
+    margin-top: 44px;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+}
+/* ----------------- */
+.reason .reason_block{
+    vertical-align: top;
+    margin-top: 35px;
+    height: 186px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+} 
+.reason .reason_block .reason_round{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius:100%;
+}
+.reason .reason_block .reason_descr{
+    min-height: 186px;
+    width: 343px;
+}
+.reason .reason_block .reason_descr .subtittle{
+    line-height: 21px;
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 400;
+}
+.reason .reason_item .reason_descr .text{
+    vertical-align: top;
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+
